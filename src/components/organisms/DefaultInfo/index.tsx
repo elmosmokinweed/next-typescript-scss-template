@@ -28,7 +28,7 @@ export const DefaultInfo: React.FC = () => {
           </Typography>
           <DownloadLink
             title="GitHub"
-            link="https://www.google.com"
+            link="https://github.com/elmosmokinweed/next-typescript-scss-template"
             imageSrc="/images/github.svg"
           />
           <Typography preset="common1" align="center">
