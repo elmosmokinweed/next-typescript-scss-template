@@ -1,0 +1,21 @@
+@import "./reset.scss";
+@import "./fonts.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(
+    45deg,
+    rgba(15, 32, 39, 1) 0%,
+    rgba(32, 58, 67, 1) 50%,
+    rgba(44, 83, 100, 1) 100%
+  );
+  font-family: $nts-font-family, Arial, Verdana, sans-serif;
+}
+
+#__next {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}

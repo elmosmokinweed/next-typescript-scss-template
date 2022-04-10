@@ -1,0 +1,32 @@
+@import "./variables.scss";
+
+//Example of creating custom font-faces:
+@font-face {
+  font-family: $nts-font-family;
+  src: url("/fonts/#{$nts-font-family}-Regular.woff") format("woff"),
+    url("/fonts/#{$nts-font-family}-Regular.ttf") format("ttf"),
+    url("/fonts/#{$nts-font-family}-Regular.eof") format("eof");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $nts-font-family;
+  src: url("/fonts/#{$nts-font-family}-Bold.woff") format("woff"),
+    url("/fonts/#{$nts-font-family}-Bold.ttf") format("ttf"),
+    url("/fonts/#{$nts-font-family}-Bold.eof") format("eof");
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $nts-font-family;
+  src: url("/fonts/#{$nts-font-family}-Light.woff") format("woff"),
+    url("/fonts/#{$nts-font-family}-Light.ttf") format("ttf"),
+    url("/fonts/#{$nts-font-family}-Light.eof") format("eof");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}

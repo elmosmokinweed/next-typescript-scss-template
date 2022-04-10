@@ -1,0 +1,28 @@
+$nts-font-family: "Poppins";
+
+$nts-containers: (
+  xs: calc(100% - 24px),
+  sm: calc(100% - 32px),
+  md: calc(100% - 40px),
+  lg: calc(100% - 48px),
+  xl: 1152px,
+);
+
+$nts-breakpoints: (
+  xs: 320px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+$nts-colors: (
+  paragraph: (
+    base: #14100b,
+  ),
+  background: (
+    base: #ffffff,
+  ),
+);
+
+$nts-transition-time: 0.25s;

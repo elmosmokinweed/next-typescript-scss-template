@@ -1,0 +1,59 @@
+@import "src/scss/mixins.scss";
+
+.root {
+  font-family: $nts-font-family;
+
+  &.common1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+
+    @include breakpoint("md") {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 32px;
+    }
+  }
+
+  &.common2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+
+    @include breakpoint("md") {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+    }
+  }
+
+  &.title1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+
+    @include breakpoint("md") {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 46px;
+    }
+  }
+
+  &.left {
+    text-align: left;
+  }
+
+  &.center {
+    text-align: center;
+  }
+
+  &.right {
+    text-align: right;
+  }
+
+  @each $color, $_ in $nts-colors {
+    &.#{$color} {
+      color: get-color($color, base);
+    }
+  }
+}

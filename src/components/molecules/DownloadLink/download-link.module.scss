@@ -1,0 +1,18 @@
+@import "src/scss/variables";
+
+.root {
+  display: block;
+  width: fit-content;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: background-color $nts-transition-time ease-in-out;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
